@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Hello World
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: Darkryhr/learn-actions@v1.0.1
